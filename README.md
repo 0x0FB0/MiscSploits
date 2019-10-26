@@ -6,3 +6,7 @@ Dell EMC Networker Server - Buffer Overflow PoC \[ CVE-2018-1218 \]
 Schneider Electric TAC Xenta 911/511 - Path traversal and credentials extraction
 ### Jasper Server Path Traversal.txt
 JasperReports Server 6.4.2 Path traversal and user enumeration
+### WebLogicHelpSSRF.md
+WebLogic Console Help - Unauthenticated SSRF (NaNday)
+### PeopleSoftMulti.md
+Oracle PeopleSoft - Multiple vulnerabilities (SSRF and XSS) [CVE-2019-3014, CVE-2019-3015]
