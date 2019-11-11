@@ -1,6 +1,5 @@
 # Pre-authenticated Reflected XSS in IBM iSeries Navigator
 
-Detailed Description: 
 Product: IBM iSeries Navigator
 Version: IBM i 7.2, 7.3, and 7.4
 
