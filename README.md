@@ -9,6 +9,6 @@ JasperReports Server 6.4.2 Path traversal and user enumeration
 ### WebLogicHelpSSRF.md
 WebLogic Console Help - Unauthenticated SSRF (NaNday)
 ### PeopleSoftMulti.md
-Oracle PeopleSoft - Multiple vulnerabilities (SSRF and XSS) [CVE-2019-3014, CVE-2019-3015]
+Oracle PeopleSoft - Multiple vulnerabilities (SSRF and XSS) [CVE-2019-3014, CVE-2019-3015, CVE-2019-2931]
 ### IBM iSeries XSS.md
 IBM iSeries Navigator 7.4, 7.3 and 7.2 - Reflected XSS (CVE-2019-4450)
