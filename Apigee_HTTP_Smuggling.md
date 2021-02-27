@@ -5,7 +5,7 @@ Responsible disclosure have not led to a resolution of the problem within the 90
 Despite the confirmation of the vulnerability and a Google VRP bounty it was moved to "Won't fix / Intended behavior" status.
 This puts multiple active deployments at risk, this entry serves as a guide on how to mitigate it (i.e. WAF filtering)
 
-Issue description:
+## Issue description
 Apigee does not properly parse HTTP request length when both `Content-Length` and `Content-Encoding: chunked` are set bu the client.
 This allows to send requests larger than the assumed size, resulting in appending the overflow data to the next request in the HTTP proxy.
 Through such malformed requests attacker can prepend request to the victim issued one, together with original HTTP headers (authorization).
