@@ -6,10 +6,10 @@ Despite the confirmation of the vulnerability and a Google VRP bounty it was mov
 This puts multiple active deployments at risk, this entry serves as a guide on how to mitigate it (i.e. WAF filtering)
 
 ## Issue description
-Apigee does not properly parse HTTP request length when both `Content-Length` and `Content-Encoding: chunked` are set bu the client.
+Apigee does not properly parse HTTP request length when both `Content-Length` and `Content-Encoding: chunked` are set by the client.
 This allows to send requests larger than the assumed size, resulting in appending the overflow data to the next request in the HTTP proxy.
 Through such malformed requests attacker can prepend request to the victim issued one, together with original HTTP headers (authorization).
-Successful attacks might allow for taking actions on behalf of authenticated users.
+Successful attacks might allow to take actions on behalf of authenticated users, exact impact depend on the API design and functionallity.
 
 This attack is already well explained [here](https://portswigger.net/web-security/request-smuggling), the only difference is that Apigee vulnerability is triggered for `Content-Encoding: chunked` instead of `Transfer-Encoding: chunked`.
 
