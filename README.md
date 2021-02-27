@@ -1,5 +1,7 @@
 # Miscellaneous Exploit Scripts
 
+### Apigee_HTTP_Smuggling.md
+Apigee Private Cloud - HTTP Request Smuggling (Won't Fix)
 ### emc_networker_dos.py
 Dell EMC Networker Server - Buffer Overflow PoC \[ CVE-2018-1218 \]
 ### TAC Xenta Traversal.txt
